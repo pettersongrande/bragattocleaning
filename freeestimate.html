@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- css style sheet -->
+    <link rel="stylesheet" href="bragattocleaning.css">
+
+<!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <title>Free Estimate</title>
+
+</head>
+<nav>
+    <a href="http://127.0.0.1:5500/index.html">BRAGATTO'S </a>
+    <a href="http://127.0.0.1:5500/services.html">SERVICES</a>
+    <a href="http://127.0.0.1:5500/about.html">ABOUT</a>
+    <a class="freeEstimateLink" href="http://127.0.0.1:5500/freeestimate.html">FREE ESTIMATE</a>
+</nav>
+
+<body id="freeEstimateBody">
+<section>
+
+
+<div>
+
+    <form id="freeEstimateForm">
+        <h1>Book Your Free Estimate Here</h1>
+    <p>
+    <label>
+    First-name
+    <input  type="text" 
+            name="first-name" 
+            placeholder="Joseph"
+            required>
+    </label>
+    </p>
+    
+
+    <p>
+    <label>
+    Last-name
+    <input  type="text" 
+            name="last-name"
+            placeholder="Smith"
+            required>
+    </label>
+    </p>
+
+    <p>
+    <label>
+    Company
+    <input  type="text" 
+            commercial="company-name"
+            placeholder="Moon Inc">
+    </label>
+    </p>
+
+    <p>
+    </label>        
+    Phone Number
+    <input  type="text" 
+            telephone="phone-number" 
+            placeholder="999-999-9999"
+            required>
+    </label>            
+    </p>
+
+    <p>
+    <!-- <label>     -->
+    <!-- Email Address -->
+    <!-- Label using for and id -->
+    <label for="email">Email Address</label>
+    <input  type="email" 
+            placeholder="your@email.com"
+            name="email"
+            id="email"
+            required>
+    <!-- </label> -->
+    </p>
+
+    <p>
+    <label>
+    Address
+    <input  type="street"
+            placeholder="9999 North Main St."
+            maxlength="30"
+            required>
+    </label>
+    </p>
+    <p>
+    <label>
+        City
+        <input  type="city"
+                placeholder="Providence"
+                minlength="2"
+                maxlength="20"
+                required>
+    </label>
+    </p>
+
+    <p>
+    <label>
+        State
+  <select name="state" required>
+    <option value=""></option>
+    <option value="Massachusetts">MA</option>
+    <option value="Rhode Island">RI</option>
+  </select>
+    </label>
+    </p>
+   
+    <p>
+    <label>
+        Zip Code
+        <input  type="zip"
+                placeholder="99999"
+                minlength="5"
+                maxlength="9"
+                required>
+    </label>
+    </p>
+
+    <p>
+    
+    I need service for:
+        <div>
+        <label>
+            <input  type="radio"
+                    name="ServicesTypes"
+                    value="Residential"> Residential
+        </label>
+        </div>
+        <div>
+        <label>
+            <input  type="radio"
+                    name="ServicesTypes"
+                    value="Commercial"> Commercial
+        </label>
+        </div>
+    
+    </p>
+
+    <p>
+        Services Request:
+        
+        <div>
+        <label>
+        <input  type="checkbox"
+                name="servicesrequest"
+                value="lightcleaning"> Light Cleaning
+        </label>
+        </div>
+
+        <div>
+        <label>
+        <input  type="checkbox"
+                name="servicesrequest"
+                value="deepcleaning"> Deep Cleaning
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="vacationhomes">Vacation Home
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="collegeturnover">College Turnover
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="events">Events
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="lastminuterequest">Last Minute Request
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="domylaundry">Do My Laundry
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="meetingrooms">Meeting Rooms
+        </label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="loungesandlobbies">Loungies and Lobbies</label>
+        </div>
+
+        <div>
+        <label>
+            <input  type="checkbox"
+                    name="servicesrequest"
+                    value="publicspaces">Public Spaces
+        </label>
+        </div>
+
+        
+        <div>
+        <p>
+        <label>
+             Preferable Start Date
+        
+            <input  type="date"
+                    name="estimatedstartdate"
+                    required>
+        </label>
+        </p>
+        </div>
+
+        <p>
+            Tell us more about your project:
+            <div>
+                <textarea   name="projectdetails" 
+                            id="" 
+                            cols="30" 
+                            rows="10"
+                            maxlength="3000"
+                            minlength="50"
+
+                            required
+                            placeholder="Please describe details of your project. Home size, number of bedrooms, event description, type of commercial building and any other important information so we can better quote you."></textarea>
+            </div>
+        </p>
+    </p>
+    <button id="quoteButton">Submit Quote Request</button>
+    </form>
+    
+
+</div>
+
+</section>
+    
+</body>
+</html>

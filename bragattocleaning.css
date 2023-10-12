@@ -1,0 +1,135 @@
+nav {
+    /* box */
+    border: 0;
+    border-radius: 1%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    position: sticky;
+    width: auto;
+    top: 0;
+    left: 0;
+
+    /* content */
+    align-items: center;
+    background-color: rgba(207, 120, 224, 0.3);
+    font-family: poppins, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+#welcomeMessage {
+    /* box */
+    width: auto;
+    height: 520px;
+    padding: 5%;
+    margin: auto;
+    display: block;
+    /* border: 1px rgb(255, 115, 0);
+    border-style: groove ; */
+
+    /* content */
+    color: rgba(63, 24, 13, 0.934);
+    text-align: center;
+    font-weight: bold;
+    font-family: raleway, sans-serif;
+    font-size: 2.7em;
+    /* background image */
+    background-image: url(https://dsm01pap004files.storage.live.com/y4mS0mGAMo862RfkEcmkYEfiNvIEFOwCF2mEPVSi8cEBUkV7tlKc40URlBUtKWnmnlpt28ixorMVxgoLvmu7eQgBC2PvRmZfzTWFbuLxhMt8t92OtnJKILprcuKHmlNmfeHvcI-Z3ekP9t8waXWZPiUy1dgSz3bRQvmOTOXeaoJ2qZ0j7l7Dfnd739McXJ4Wm-D?width=3840&height=2162&cropmode=none);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+}
+
+a:hover {
+
+    color: hsla(257, 69%, 34%, 0.5);
+
+}
+
+#freeEstimateButton, .freeEstimateLink {
+
+    border: 0;
+    line-height: 2.5;
+    padding:0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 115, 0);
+    /* text-shadow: ; */
+    /* border-radius: 10px; */
+    background-color: rgba(207, 120, 224, 0.09);
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+
+/*------ buttons------- */
+
+#freeEstimateButton, .freeEstimateLink:hover {
+    background-color: hsla(108, 79%, 17%, 0.5);
+    color: hsl(120, 12%, 90%);
+}
+
+#quoteButton {
+
+    /* box */
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    display: block;
+    
+    
+    
+    /* style */
+    border-radius: 5%;
+    border-color: transparent;
+    background-color: rgb(251, 251, 251);
+    color: black;
+      
+
+
+}
+
+#quoteButton:hover {
+
+    background-color: rgb(255, 115, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+#freeEstimateForm {
+/* box */
+    width: 400px;
+    height: auto;
+    padding: 1.5em;
+    margin: auto;
+    border: 1px rgb(255, 115, 0);
+    border-radius: 5px;
+    flex-direction: column;
+    
+
+/* Style */
+    background-color: rgba(77, 128, 66, 0.493);
+    border-style:hidden;
+
+}
+
+#aboutBody, #freeEstimateBody, #servicesBody, #indexBody {
+   
+    background: rgb(201,241,228);
+    background: linear-gradient(0deg, rgba(201,241,228,1) 0%, rgba(246,221,229,1) 100%);
+}
+
+
+
